@@ -11,6 +11,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class OAuth2ServerApplicationTests {
     @Test
     public void testPasswordEncoder(){
-        System.out.println(new BCryptPasswordEncoder().encode("secret"));
+        System.out.println(new BCryptPasswordEncoder().encode("admin888"));
     }
 }
